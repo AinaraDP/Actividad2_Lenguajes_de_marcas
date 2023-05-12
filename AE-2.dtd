@@ -1,0 +1,58 @@
+<!ELEMENT biblioteca (libros, revistas, periodicos)>
+
+<!-- Libros -->
+<!ELEMENT libros (libro+)>
+<!-- Libro-->
+<!ELEMENT libro (título_libro, capítulos, índice, sinopsis)>
+    <!ATTLIST libro
+            id ID #REQUIRED
+            tipo_clase_libro (novela | infantil | didáctico) #IMPLIED
+            número_páginas CDATA #REQUIRED
+              >
+    <!ELEMENT título_libro (#PCDATA)>
+    <!ELEMENT capítulos (capítulo+)>
+    <!ELEMENT capítulo (título_capítulo, contenido_libro)>
+        <!ATTLIST capítulo número_páginas CDATA #REQUIRED>
+        <!ELEMENT título_capítulo (#PCDATA)>
+        <!ELEMENT contenido_libro (#PCDATA)>
+            <!ATTLIST contenido_libro enlace CDATA #REQUIRED>
+    <!ELEMENT índice (#PCDATA)>
+    <!ELEMENT sinopsis (#PCDATA)>
+
+
+
+<!-- revistas -->
+<!ELEMENT revistas (revista+)>
+
+<!-- revista-->
+<!ELEMENT revista (título_revista, número_revista, índice_revista, secciones_revista)>
+    <!ATTLIST revista 
+            id ID #REQUIRED
+            número_páginas CDATA #REQUIRED
+            tipo_clase_revista (informática | corazón | coches | investigación | otras) #IMPLIED
+            >
+    <!ELEMENT título_revista (#PCDATA)>
+    <!ELEMENT número_revista (#PCDATA)>
+    <!ELEMENT índice_revista (#PCDATA)>
+    <!ELEMENT secciones_revista (sección_revista+)>
+        <!ELEMENT sección_revista (contenido_revista)>
+            <!ATTLIST sección_revista número_páginas CDATA #REQUIRED>
+            <!ELEMENT contenido_revista (#PCDATA)>
+            <!ATTLIST contenido_revista enlace CDATA #REQUIRED>
+
+
+<!-- Periódicos-->
+<!ELEMENT periódicos (periódico+)>
+<!-- Periódico-->
+<!ELEMENT periódico (secciones_periódico, índice_periódico)>
+    <!ATTLIST periódico id ID #REQUIRED>
+    <!ATTLIST periódico tipo_clase_periódico (nacional | internacional) #REQUIRED>
+    <!ATTLIST periódico fecha_publicación CDATA #REQUIRED>  
+    <!ELEMENT secciones_periódico (sección_periódico+)> 
+        <!ELEMENT sección_periódico (artículos+, contenido_periódico)>
+            <!ELEMENT artículos (#PCDATA)>
+            <!ELEMENT contenido_periódico (#PCDATA)>
+            <!ATTLIST sección_periódico tipo (económica | opinión | deportes | nacional | internacional) #REQUIRED>
+            <!ATTLIST artículos autor CDATA #REQUIRED>
+            <!ATTLIST contenido_periódico enlace CDATA #REQUIRED>
+    <!ELEMENT índice_periódico (#PCDATA)>
