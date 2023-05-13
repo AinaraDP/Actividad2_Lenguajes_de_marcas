@@ -1,7 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!DOCTYPE biblioteca SYSTEM "AE-2.dtd">
-
-<biblioteca>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation= "AE_2.xsd">
 
     <!-- Libros-->
     <libros>
@@ -163,7 +162,7 @@
     <periódicos>
 
         <!-- Periódico 1-->
-        <periódico id="P0001" tipo_clase_periódico="nacional" fecha_publicación="19-02-2018">
+        <periódico id="P0001" tipo_clase_periódico="nacional" fecha_publicación="2018-02-19">
             <secciones_periódico>
                 <sección_periódico tipo="económica">
                     <artículos autor="Iban Fonseca"/>
@@ -195,7 +194,7 @@
         </periódico>
 
         <!-- Periodico 2-->
-        <periódico id="P0002" tipo_clase_periódico="internacional" fecha_publicación="03-12-1997">
+        <periódico id="P0002" tipo_clase_periódico="internacional" fecha_publicación="1997-05-02">
             <secciones_periódico>
                 <sección_periódico tipo="económica">
                     <artículos autor="Dolores Valverde"/>

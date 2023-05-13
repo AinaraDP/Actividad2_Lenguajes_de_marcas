@@ -1,0 +1,230 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "AE_2.dtd">
+
+<biblioteca>
+
+    <!-- Libros-->
+    <libros>
+        <!-- Primer libro -->
+        <libro id="L0001" tipo_clase_libro="novela" número_páginas="477">
+            <título_libro>Donde los árboles cantan</título_libro>
+            <capítulos>
+                <!-- Capítulo 1-->
+                <capítulo número_páginas="16">
+                    <título_capítulo>Capítulo 1 Donde los arboles cantan</título_capítulo>
+                    <contenido_libro enlace="https://www.dondelosarbolescantan/capitulo1"/>
+                </capítulo>
+
+                <!-- Capítulo 2-->
+                <capítulo número_páginas="21">
+                    <título_capítulo>Capítulo 2 Donde los arboles cantan</título_capítulo>
+                    <contenido_libro enlace="https://www.dondelosarbolescantan/capitulo2"/>
+                </capítulo>
+            </capítulos>
+            <índice>Índice Donde los arboles cantan</índice>
+            <sinopsis>Viana, la única hija del duque de Rocagrís, está prometida al joven Robian de Castelmar desde que ambos eran niños. Los dos se aman y se casarán en primavera. Sin embargo, durante los festejos del solsticio de invierno, un arisco montaraz advierte al rey de Nortia y sus caballeros de la amenaza de los bárbaros de las estepas… y tanto Robian como el duque se ven obligados a marchar a la guerra. En tales circunstancias, una doncella como Viana no puede hacer otra cosa que esperar su regreso… y, tal vez, prestar atención a las leyendas que se cuentan sobre el Gran Bosque… el lugar donde los árboles cantan.</sinopsis>
+            
+        </libro>
+
+        <!-- Segundo libro -->
+        <libro id="L0002" tipo_clase_libro="infantil" número_páginas="120">
+            <título_libro>El principito</título_libro>
+            <capítulos>
+                <!-- Capitulo 1-->
+                <capítulo número_páginas="4">
+                    <título_capítulo>Capítulo 1 El principito</título_capítulo>
+                    <contenido_libro enlace="https://www.elprincipito/capitulo1"/>
+                </capítulo>
+                <!-- Capítulo 2-->
+                <capítulo número_páginas="5">
+                    <título_capítulo>Capítulo 2 El principito</título_capítulo>
+                    <contenido_libro enlace="https://www.elprincipito/capitulo2"/>
+                </capítulo>
+            </capítulos>
+            <índice>Índice El principito</índice>
+            <sinopsis>Un aviador queda incomunicado en el desierto tras sufrir una avería en su avión a mil millas de cualquier región habitada. Allí se encontrará con un pequeño príncipe de cabellos de oro que afirma vivir en el asteroide B 612 (donde hay una rosa y tres volcanes) con el que no tardará en congeniar. En sus conversaciones, el principito le relatará su visión sobre la vida y la gente, de esa sabiduría que se pierde cuando las personas abandonamos la infancia. </sinopsis>
+            
+        </libro>
+
+        <!-- Tercer libro-->
+        <libro id="L0003" tipo_clase_libro="didáctico" número_páginas="89">
+            <título_libro>Animales marinos</título_libro>
+            <capítulos>
+                <!-- Capitulo 1-->
+                <capítulo número_páginas="15">
+                    <título_capítulo>El océano</título_capítulo>
+                    <contenido_libro enlace="https://www.eloceano.com"/>
+                </capítulo>
+                <!-- Capítulo 2-->
+                <capítulo número_páginas="14">
+                    <título_capítulo>Especies</título_capítulo>
+                    <contenido_libro enlace="https://www.especies.com"/>
+                </capítulo>
+            </capítulos>
+            <índice>Índice Animales marinos</índice>
+            <sinopsis>Los animales marinos, también conocidos como animales del mar, son aquellos que pasan toda o gran parte de su vida viviendo dentro del mar. En este caso, descartaríamos a los animales de ríos y a los animales de los lagos, que aunque son animales acuáticos, no podrían soportar la salinidad del agua de mar. </sinopsis>
+        </libro>
+    </libros>
+    
+    <!-- Revistas-->
+    <revistas>
+
+        <!-- Revista 1 -->
+        <revista id="R0001" tipo_clase_revista="informática" número_páginas="25" >
+            <título_revista>Internet</título_revista>
+            <número_revista>10</número_revista>
+            <índice_revista>Índice</índice_revista>
+            <secciones_revista>
+                <!-- Seccion 1-->
+                <sección_revista número_páginas="7">
+                    <contenido_revista enlace="https://www.seccion1.com"/>
+                </sección_revista>
+
+                <!-- Seccion 2-->
+                <sección_revista número_páginas="16">
+                    <contenido_revista enlace="https://www.seccion2.com"/>
+                </sección_revista>
+            </secciones_revista>
+        </revista>
+
+        <!-- Revista 2 -->
+        <revista id="R0002" tipo_clase_revista="corazón" número_páginas="5" >
+            <título_revista>Rumores</título_revista>
+            <número_revista>11</número_revista>
+            <índice_revista>Índice</índice_revista>
+            <secciones_revista>
+                <!-- Sección 1-->
+                <sección_revista número_páginas="9">
+                    <contenido_revista enlace="https://www.seccion1.com"/>
+                </sección_revista>
+
+                <!-- Sección 2-->
+                <sección_revista número_páginas="23">
+                    <contenido_revista enlace="https://www.seccion2.com"/>
+                </sección_revista>
+            </secciones_revista>
+        </revista>
+
+        <!-- Revista 3 -->
+        <revista id="R0003" tipo_clase_revista="coches" número_páginas="19" >
+            <título_revista>Sobre ruedas</título_revista>
+            <número_revista> 12 </número_revista>
+            <índice_revista>Índice</índice_revista>
+            <secciones_revista>
+                <!-- Sección 1-->
+                <sección_revista número_páginas="6">
+                    <contenido_revista enlace="https://www.seccion1.com"/>
+                </sección_revista>
+
+                <!-- Seccion 2-->
+                <sección_revista número_páginas="1">
+                    <contenido_revista enlace="https://www.seccion2.com"/>
+                </sección_revista>
+            </secciones_revista>
+        </revista>
+
+        <!-- Revista 4-->
+        <revista id="R0004" número_páginas="23" tipo_clase_revista="investigación">
+            <título_revista>La lupa </título_revista>
+            <número_revista>13</número_revista>
+            <índice_revista>Índice</índice_revista>
+            <secciones_revista>
+                <!-- Sección 1-->
+                <sección_revista número_páginas="18">
+                    <contenido_revista enlace="https://www.seccion1.com"/>
+                </sección_revista>
+
+                <!-- Sección 2-->
+                <sección_revista número_páginas="7">
+                    <contenido_revista enlace="https://www.seccion2.com"/>
+                </sección_revista>
+            </secciones_revista>
+        </revista>
+
+        <!-- Revista 5 -->
+        <revista id="R0005" tipo_clase_revista="otras" número_páginas="32" > 
+            <título_revista>El universo</título_revista>
+            <número_revista> 14 </número_revista>
+            <índice_revista>Índice</índice_revista>
+            <secciones_revista>
+                <!-- Sección 1-->
+                <sección_revista número_páginas="4">
+                    <contenido_revista enlace="https://www.seccion1.com"/>
+                </sección_revista>
+
+                <!-- Sección 2-->
+                <sección_revista número_páginas="1">
+                    <contenido_revista enlace="https://www.seccion2.com"/>
+                </sección_revista>
+            </secciones_revista>
+        </revista>
+    </revistas>
+
+    <periódicos>
+
+        <!-- Periódico 1-->
+        <periódico id="P0001" tipo_clase_periódico="nacional" fecha_publicación="19-02-2018">
+            <secciones_periódico>
+                <sección_periódico tipo="económica">
+                    <artículos autor="Iban Fonseca"/>
+                    <artículos autor="Carmen Yañez"/>
+                    <contenido_periódico enlace="https://www.economia1.com"/>
+                </sección_periódico>
+                <sección_periódico tipo="opinión">
+                    <artículos autor="Celso Cornejo"/>
+                    <artículos autor="Zoe Albert"/>
+                    <contenido_periódico enlace="https://www.opinion1.com"/>
+                </sección_periódico>
+                <sección_periódico tipo="deportes">
+                    <artículos autor="Jesus de la Torre"/>
+                    <artículos autor="Felix Moreno"/>
+                    <contenido_periódico enlace="https://www.deportes1.com"/>
+                </sección_periódico>
+                <sección_periódico tipo="nacional">
+                    <artículos autor="Olaya Rincon"/>
+                    <artículos autor="Jessica Rueda"/>
+                    <contenido_periódico enlace="https://www.nacional1.com"/>
+                </sección_periódico>
+                <sección_periódico tipo="internacional">
+                    <artículos autor="Cristian del Rios"/>
+                    <artículos autor="Uxue Barroso"/>
+                    <contenido_periódico enlace="https://www.internacional1.com"/>
+                </sección_periódico>
+            </secciones_periódico>
+            <índice_periódico>Índice 1</índice_periódico>
+        </periódico>
+
+        <!-- Periodico 2-->
+        <periódico id="P0002" tipo_clase_periódico="internacional" fecha_publicación="03-12-1997">
+            <secciones_periódico>
+                <sección_periódico tipo="económica">
+                    <artículos autor="Dolores Valverde"/>
+                    <artículos autor="Manuela Armas"/>
+                    <contenido_periódico enlace="https://www.economia2.com"/>
+                </sección_periódico>
+                <sección_periódico tipo="opinión">
+                    <artículos autor="Dani Fuentes"/>
+                    <artículos autor="Cristina Moral"/>
+                    <contenido_periódico enlace="https://www.opinion2.com"/>
+                </sección_periódico>
+                <sección_periódico tipo="deportes">
+                    <artículos autor="Ester Rincon"/>
+                    <artículos autor="Elodia Barrena"/>
+                    <contenido_periódico enlace="https://www.deportes2.com"/>
+                </sección_periódico>
+                <sección_periódico tipo="nacional">
+                    <artículos autor="Pablo Matas"/>
+                    <artículos autor="Beatriz Barrio"/>
+                    <contenido_periódico enlace="https://www.nacional2.com"/>
+                </sección_periódico>
+                <sección_periódico tipo="internacional">
+                    <artículos autor="Zaira Gallo"/>
+                    <artículos autor="Enrique Vargas"/>
+                    <contenido_periódico enlace="https://www.internacional2.com"/>
+                </sección_periódico>
+            </secciones_periódico>
+            <índice_periódico>Índice 2</índice_periódico>
+        </periódico>
+    </periódicos>
+
+</biblioteca>
