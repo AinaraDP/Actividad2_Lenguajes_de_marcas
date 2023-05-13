@@ -11,17 +11,17 @@
             <capítulos>
                 <!-- Capítulo 1-->
                 <capítulo número_páginas="16">
-                    <título_capítulo>Capítulo 1</título_capítulo>
+                    <título_capítulo>Capítulo 1 Donde los arboles cantan</título_capítulo>
                     <contenido_libro enlace="https://www.dondelosarbolescantan/capitulo1"/>
                 </capítulo>
 
                 <!-- Capítulo 2-->
                 <capítulo número_páginas="21">
-                    <título_capítulo>Capítulo2 </título_capítulo>
+                    <título_capítulo>Capítulo 2 Donde los arboles cantan</título_capítulo>
                     <contenido_libro enlace="https://www.dondelosarbolescantan/capitulo2"/>
                 </capítulo>
             </capítulos>
-            <índice>Índice</índice>
+            <índice>Índice Donde los arboles cantan</índice>
             <sinopsis>Viana, la única hija del duque de Rocagrís, está prometida al joven Robian de Castelmar desde que ambos eran niños. Los dos se aman y se casarán en primavera. Sin embargo, durante los festejos del solsticio de invierno, un arisco montaraz advierte al rey de Nortia y sus caballeros de la amenaza de los bárbaros de las estepas… y tanto Robian como el duque se ven obligados a marchar a la guerra. En tales circunstancias, una doncella como Viana no puede hacer otra cosa que esperar su regreso… y, tal vez, prestar atención a las leyendas que se cuentan sobre el Gran Bosque… el lugar donde los árboles cantan.</sinopsis>
             
         </libro>
@@ -32,16 +32,16 @@
             <capítulos>
                 <!-- Capitulo 1-->
                 <capítulo número_páginas="4">
-                    <título_capítulo>Capítulo 1</título_capítulo>
+                    <título_capítulo>Capítulo 1 El principito</título_capítulo>
                     <contenido_libro enlace="https://www.elprincipito/capitulo1"/>
                 </capítulo>
                 <!-- Capítulo 2-->
                 <capítulo número_páginas="5">
-                    <título_capítulo>Capítulo 2</título_capítulo>
+                    <título_capítulo>Capítulo 2 El principito</título_capítulo>
                     <contenido_libro enlace="https://www.elprincipito/capitulo2"/>
                 </capítulo>
             </capítulos>
-            <índice>Índice</índice>
+            <índice>Índice El principito</índice>
             <sinopsis>Un aviador queda incomunicado en el desierto tras sufrir una avería en su avión a mil millas de cualquier región habitada. Allí se encontrará con un pequeño príncipe de cabellos de oro que afirma vivir en el asteroide B 612 (donde hay una rosa y tres volcanes) con el que no tardará en congeniar. En sus conversaciones, el principito le relatará su visión sobre la vida y la gente, de esa sabiduría que se pierde cuando las personas abandonamos la infancia. </sinopsis>
             
         </libro>
@@ -61,7 +61,7 @@
                     <contenido_libro enlace="https://www.especies.com"/>
                 </capítulo>
             </capítulos>
-            <índice>Índice</índice>
+            <índice>Índice Animales marinos</índice>
             <sinopsis>Los animales marinos, también conocidos como animales del mar, son aquellos que pasan toda o gran parte de su vida viviendo dentro del mar. En este caso, descartaríamos a los animales de ríos y a los animales de los lagos, que aunque son animales acuáticos, no podrían soportar la salinidad del agua de mar. </sinopsis>
         </libro>
     </libros>
@@ -70,7 +70,7 @@
     <revistas>
 
         <!-- Revista 1 -->
-        <revista id="R0001" número_páginas="25" tipo_clase_revista="informática">
+        <revista id="R0001" tipo_clase_revista="informática" número_páginas="25" >
             <título_revista>Internet</título_revista>
             <número_revista>10</número_revista>
             <índice_revista>Índice</índice_revista>
@@ -88,7 +88,7 @@
         </revista>
 
         <!-- Revista 2 -->
-        <revista id="R0002" número_páginas="5" tipo_clase_revista="corazón">
+        <revista id="R0002" tipo_clase_revista="corazón" número_páginas="5" >
             <título_revista>Rumores</título_revista>
             <número_revista>11</número_revista>
             <índice_revista>Índice</índice_revista>
@@ -106,7 +106,7 @@
         </revista>
 
         <!-- Revista 3 -->
-        <revista id="R0003" número_páginas="19" tipo_clase_revista="coches">
+        <revista id="R0003" tipo_clase_revista="coches" número_páginas="19" >
             <título_revista>Sobre ruedas</título_revista>
             <número_revista> 12 </número_revista>
             <índice_revista>Índice</índice_revista>
@@ -142,7 +142,7 @@
         </revista>
 
         <!-- Revista 5 -->
-        <revista id="R0005" número_páginas="32" tipo_clase_revista="otras"> 
+        <revista id="R0005" tipo_clase_revista="otras" número_páginas="32" > 
             <título_revista>El universo</título_revista>
             <número_revista> 14 </número_revista>
             <índice_revista>Índice</índice_revista>
