@@ -5,7 +5,7 @@
     <!-- Libros-->
     <libros>
         <!-- Primer libro -->
-        <libro id="L0001" tipo_clase_libro="novela" número_páginas="477">
+        <libro id="L0004" tipo_clase_libro="novela" número_páginas="477">
             <título_libro>Donde los árboles cantan</título_libro>
             <capítulos>
                 <!-- Capítulo 1-->
